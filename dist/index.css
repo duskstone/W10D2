@@ -1,0 +1,71 @@
+.clock {
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock section {
+  /* font-family: "Open-Sans"; */
+  /* margin: 12px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs ul {
+  display: flex;
+  flex-direction: row;
+  list-style: inside none;
+  width: 100%;
+  margin-left: 0px;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.tabs li {
+  border: 1px solid black;
+  /* margin-right: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  background: lightblue;
+}
+
+.tabs li:hover {
+  background: black;
+  color: white;
+}
+
+.tabs h1 {
+  font-weight: 400;
+  height: 100%;
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.tabs {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: flex-start;
+  padding: 0px;
+}
+
+.tabs article {
+  border: 1px solid black;
+  padding: 20px;
+  border-top: none;
+  background: lightblue;
+  color: white;
+}
+
+.active {
+  font-weight: 700;
+  border-bottom: none !important;
+}
